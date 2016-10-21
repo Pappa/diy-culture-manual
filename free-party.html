@@ -1,0 +1,106 @@
+<html>
+<head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+</SCRIPT>
+	<style type="text/css">
+		#title {position: absolute; visibility: visible; left:0; width:720; top:8; z-index:50;}
+		#text1 {position: absolute; visibility: visible; left:42; top:57; width:190; z-index:100;}
+		#text2 {position: absolute; visibility: visible; left:487; top:57; width:190; z-index:200;}
+
+		#main {position: absolute; visibility: visible; left:0; top:45; width:720; z-index:20;}
+		#location {position: absolute; visibility: hidden; left:0; top:45; width:720; z-index:30;}
+		#technicalities {position: absolute; visibility: hidden; left:0; top:45; width:720; z-index:40;}
+		#party {position: absolute; visibility: hidden; left:0; top:45; width:720; z-index:30;}
+		#police {position: absolute; visibility: hidden; left:0; top:45; width:720; z-index:30;}
+
+	#beach {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+	#forest {position: absolute; visibility: hidden; top: 270; left: 365; width: 152; height: 200;}
+	#warehouse {position: absolute; visibility: hidden; top: 270; left: 527; width: 152; height: 200;}
+
+	#speakers {position: absolute; visibility: hidden; top: 270; left: 365; width: 152; height: 200;}
+	#facilities {position: absolute; visibility: hidden; top: 269; left: 527; width: 152; height: 200;}
+	#decoration {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+
+	#eyes-closed {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+	#crowd {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+	#girl {position: absolute; visibility: hidden; top: 270; left: 527; width: 152; height: 200;}
+
+	#batman {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+	#hug {position: absolute; visibility: hidden; top: 270; left: 365; width: 152; height: 200;}
+	#coppers {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+
+		#hr {position: absolute; visibility: visible; left:0; top:250; width:720; z-index:300;}
+
+	#location-t {position: absolute; visibility: visible; left:40; top:270; width:152; z-index:400;}
+	#technicalities-t {position: absolute; visibility: visible; left:203; top:270; width:152; z-index:600;}
+	#party-t {position: absolute; visibility: visible; left:365; top:270; width:152; z-index:700;}
+	#police-t {position: absolute; visibility: visible; left:527; top:270; width:152; z-index:800;}
+
+	#location-text {position: absolute; visibility: visible; left:40; top:297; width:152; z-index:400;}
+	#technicalities-text {position: absolute; visibility: visible; left:203; top:297; width:152; z-index:600;}
+	#party-text {position: absolute; visibility: visible; left:365; top:297; width:152; z-index:700;}
+	#police-text {position: absolute; visibility: visible; left:527; top:297; width:152; z-index:800;}
+	</style>
+</head>
+<body bgcolor="white" link="darkred" alink="darkred" vlink="darkred">
+<div id="title"><center><font face="vidodisp, impact, chicago" color="darkblue" size="+3"><u>how to sort a free </u>p<u>art</u>y</font></center>
+</div>
+
+<div id="text1"><font face="Arial, Helvatica" size="1"><p align="right">Free parties are unauthorised gatherings. But don't let that worry you. Like many other aspects of the CJA, the police don't often arrest people for organising them. If properly planned, free parties can be pulled off with relative ease.</p><p align="right">It is important to get everyone involved together for a meeting a couple of weeks before the event, you will be surprised how much there is to do for a successful party, and if you plan it right, you can do it again and again.</p></font></div>
+<div id="text2"><font face="Arial, Helvatica" size="1"><p align="left">If you want to have a top notch party and stay in the good books of the authorities, you should make sure that any building you use has running water and toilets (even portaloos), the building should be clean(ish) and safe. You should have red and black fire extinguishers and signposted fire exits. Soundproof any windows (with mattresses or plywood) and get hold of a first aid kit and someone who knows how to use it. All this may sound expensive, but as everyone knows, free parties can make a lot in donations.</p></font></div>
+
+<div id="location"><center><img src="images/dancing.jpg" width="240" height="210"></center></div>
+<div id="beach"><img src="images/beach.jpg" width="152" height="200"></div>
+<div id="forest"><img src="images/ch-ed2.jpg" width="152" height="200"></div>
+<div id="warehouse"><img src="images/warehouse.jpg" width="152" height="200"></div>
+
+<div id="technicalities"><center><img src="images/sign.jpg" width="240" height="210"></center></div>
+<div id="decoration"><img src="images/dragon.jpg" width="152" height="200"></div>
+<div id="facilities"><img src="images/helen.jpg" width="152" height="200"></div>
+<div id="speakers"><img src="images/speakers.jpg" width="152" height="200"></div>
+
+<div id="main"><center><img src="images/castlem.jpg" width="240" height="210"></center></div>
+
+<div id="party"><center><img src="images/crowd.jpg" width="240" height="210"></center></div>
+<div id="eyes-closed"><img src="images/eyes-cl.jpg" width="152" height="200"></div>
+<div id="crowd"><img src="images/sweaty.jpg" width="152" height="200"></div>
+<div id="girl"><img src="images/girl-dancing.jpg" width="152" height="200"></div>
+
+<div id="police"><center><img src="images/police.jpg" width="240" height="210"></center></div>
+<div id="batman"><img src="images/batman.jpg" width="152" height="200"></div>
+<div id="hug"><img src="images/hug.jpg" width="152" height="200"></div>
+<div id="coppers"><img src="images/coppers.jpg" width="152" height="200"></div>
+
+<div id="hr"><center><hr width="50%"></center></div>
+
+<div id="location-t"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="showLayer('location'); showLayer('beach'); showLayer('warehouse'); showLayer('forest'); hideLayer('main'); hideLayer('technicalities-text'); hideLayer('party-text'); hideLayer('police-text'); hideLayer('technicalities-t'); hideLayer('party-t'); hideLayer('police-t')" onMouseOut="showLayer('main'); showLayer('technicalities-text'); showLayer('party-text'); showLayer('police-text'); showLayer('technicalities-t'); showLayer('party-t'); showLayer('police-t'); hideLayer('location'); hideLayer('beach'); hideLayer('warehouse'); hideLayer('forest')">Location</a></font></center></div>
+
+<div id="technicalities-t"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="showLayer('technicalities'); showLayer('speakers'); showLayer('facilities'); showLayer('decoration'); hideLayer('main'); hideLayer('location-text'); hideLayer('party-text'); hideLayer('police-text'); hideLayer('location-t'); hideLayer('party-t'); hideLayer('police-t')" onMouseOut="showLayer('main'); showLayer('location-text'); showLayer('party-text'); showLayer('police-text'); showLayer('location-t'); showLayer('party-t'); showLayer('police-t'); hideLayer('technicalities'); hideLayer('speakers'); hideLayer('facilities'); hideLayer('decoration')">Technicalities</a></font></center></div>
+
+<div id="party-t"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="showLayer('party'); showLayer('eyes-closed'); showLayer('crowd'); showLayer('girl'); hideLayer('main'); hideLayer('location-text'); hideLayer('technicalities-text'); hideLayer('police-text'); hideLayer('location-t'); hideLayer('technicalities-t'); hideLayer('police-t')" onMouseOut="showLayer('main'); showLayer('location-text'); showLayer('technicalities-text'); showLayer('police-text'); showLayer('location-t'); showLayer('technicalities-t'); showLayer('police-t'); hideLayer('party'); hideLayer('eyes-closed'); hideLayer('crowd'); hideLayer('girl')">Party</a></font></center></div>
+
+<div id="police-t"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="showLayer('police'); showLayer('batman'); showLayer('hug'); showLayer('coppers'); hideLayer('main'); hideLayer('location-text'); hideLayer('technicalities-text'); hideLayer('party-text'); hideLayer('location-t'); hideLayer('technicalities-t'); hideLayer('party-t')" onMouseOut="showLayer('main'); showLayer('location-text'); showLayer('technicalities-text'); showLayer('party-text'); showLayer('location-t'); showLayer('technicalities-t'); showLayer('party-t'); hideLayer('police'); hideLayer('batman'); hideLayer('hug'); hideLayer('coppers')">Police</a></font></center></div>
+
+<div id="location-text"><font face="Arial, Helvatica" size="1">Choosing the venue can be the most creative bit. You can get away with no d&eacute;cor, water or toilets, even poor tunes; but if the site's rubbish your guests wont be happy. Pick a place that will appeal to your crowd, the wierder the better. Just make sure it's secluded enough that local residents dont hear, or the boys in blue are bound to make an appearance when the party's in full swing.</font></div>
+
+<div id="technicalities-text"><font face="Arial, Helvatica" size="1">It's a good idea to delegate the jobs. Have different people to sort out the water, generator, sound system, fire extinguishers, rubbish bags, directions, etc. Make sure everyone knows what everyone else is meant to be doing. Test the equipment beforehand, and travel to the site the day before to make sure the directions and route are OK. Get early arrivals to give you a hand with the decorations.</font></div>
+
+<div id="party-text"><font face="Arial, Helvatica" size="1">While the party's on there's not much to do except enjoy yourself. If you've got doormen make sure they get breaks. If you're selling alcohol, sell people raffle tickets which they can exchange for booze at a different table, there's nothing the police hate more than selling beer without a licence. Make sure that at least one of you doesn't get too caned to deal with any eventualities.</font></div>
+
+<div id="police-text"><font face="Arial, Helvatica" size="1">If the police do come don't panic. Show them round, reasure them that nothing terribly illegal or depraved is going on, turn the tunes down or off if they ask you to. Show them that your fire extinguishers and fire exits, or any other safety measures you have. Usually they will be fairly chilled out, but if they do get nasty, agree to leave immediately to save your sound system.</font></div>
+
+</body>
+</html>

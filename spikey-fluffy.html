@@ -1,0 +1,54 @@
+<html>
+<head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+</SCRIPT>
+<style type="text/css">
+#title {position: absolute; visibility: visible; width:720; height:50; left:0; top:10; z-index:10; }
+#spikey {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#fluffy {position: absolute; visibility: visible; width:720; height:500; left:0; top:55; z-index:100; }
+#winnie {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#seattle {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#shove {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#shout {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#fountain {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#blood {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#gm {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+#cja {position: absolute; visibility: hidden; width:720; height:500; left:0; top:55; z-index:100; }
+
+#text1 {text-align:right; position: absolute; visibility: visible; width:210; height:500; left:10; top:48; z-index:300; }
+#text2 {text-align:center; position: absolute; visibility: visible; width:250; height:500; left:235; top:315; z-index:400; }
+#text3 {text-align:left; position: absolute; visibility: visible; width:210; height:500; left:498; top:48; z-index:300; }
+</style>
+</head>
+<body bgcolor="white" link="darkred" vlink="darkred" alink="darkred">
+<div id="title"><center><font face="vidodisp, impact, chicago" size="+3" color="darkblue"><u>the fluff</u>y<u> vs. s</u>p<u>ike</u>y<u> debate</u></font></center></div>
+<div id="spikey"><center><img src="images/spikey.jpg"></center></div>
+
+<div id="fluffy"><center><img src="images/naked-protest.jpg"></center></div>
+<div id="winnie"><center><img src="images/winnie.jpg"></center></div>
+<div id="shout"><center><img src="images/manshout.jpg"></center></div>
+<div id="seattle"><center><img src="images/seattle-riot.jpg"></center></div>
+<div id="shove"><center><img src="images/cops-shove.jpg"></center></div>
+<div id="fountain"><center><img src="images/fountain.jpg"></center></div>
+<div id="blood"><center><img src="images/blood.jpg"></center></div>
+<div id="gm"><center><img src="images/destruction.jpg"></center></div>
+<div id="cja"><center><img src="images/cja.jpg"></center></div>
+
+<div id="text1"><font face="arial,helvatica" size="1"><p>The debate surrounding non-violent direct action (NVDA) in DiY Culture has raged since the early 90's. To some NVDA has become a dogma to be used in all situation, regardless of the context, to others it is simply one choice among many.</p><p>Where did NVDA come from, what is it's purpose? Some cite NVDA as part of our democratic heritage, as if to democratise direct action. Although civil unrest is part of our history, unlike other European states, Britain's constitution has never given us the right to protest.</p><p>Another reason is the obvious moral one, that violence is simply wrong. This arguement is subjectivly dependant upon the views of protestors themselves. It is also external of context, remaining fixed even when police brutality reaches levels seen in America on <a href="#" onMouseOver="hideLayer('fluffy');showLayer('seattle')" onMouseOut="hideLayer('seattle');showLayer('fluffy')">November 30th</a> 1999.</p><p>NVDA is often a tactic. It decreases the likelihood of police or security responding violently, thus avoiding conflict. Secondly, it lengthens the process of protest, one of the main goals of protest being economic expense, time is money. It also increases the moral status of the movement in the eyes of public, often creating public sympathy.</font></div>
+<div id="text2"><font face="arial,helvatica" size="1"><p>In order to understand NVDA, we must understand what violence is, and when/if it is appropriate. Does damage to <a href="#" onMouseOver="hideLayer('fluffy');showLayer('spikey')" onMouseOut="hideLayer('spikey');showLayer('fluffy')">property</a> or <a href="#" onMouseOver="hideLayer('fluffy');showLayer('fountain')" onMouseOut="hideLayer('fountain');showLayer('fluffy')">public amenities</a>, or defacement of <a href="#" onMouseOver="hideLayer('fluffy');showLayer('winnie')" onMouseOut="hideLayer('winnie');showLayer('fluffy')">public monuments</a> count as violence? Does the theft of equipment or machinery for use at protest sites (pixieing) count as violence? Does the <a href="#" onMouseOver="hideLayer('fluffy');showLayer('gm')" onMouseOut="hideLayer('gm');showLayer('fluffy')">destruction of crops</a> at GM test sites count as violence?</p><p>Does abusive language, <a href="#" onMouseOver="hideLayer('fluffy');showLayer('shout')" onMouseOut="hideLayer('shout');showLayer('fluffy')">threatening behaviour</a>, or gesticulated provocation count as violence?</p></font></div>
+<div id="text3"><font face="arial,helvatica" size="1"><p>Is <a href="#" onMouseOver="hideLayer('fluffy');showLayer('shove')" onMouseOut="hideLayer('shove');showLayer('fluffy')">reactive violence</a> OK? Many principled 'fluffies' would reluctantly use physical force to protect themselves. Unless they are willing to use equal force to protect friends or strangers are they not guilty of hypocrisy, selfishness and cowardice.</p><p>What about violence <i>within</i> the movement to eject those that are just too '<a href="#" onMouseOver="hideLayer('fluffy');showLayer('blood')" onMouseOut="hideLayer('blood');showLayer('fluffy')">spikey</a>'? This problem is obvious at media circus' like J18 or Mayday, but applies to all actions.</p><p>These are the reasons it is important to quantify and qualify differant forms of NVDA, the line must be drawn somewhere, and simply choosing not to break the law is not an option, all actions and protests are illegal, and once you break the law you break the contract of the Bill of Rights, thus loosing your right of freedom.</p><p>During the protests against the <a href="#" onMouseOver="hideLayer('fluffy');showLayer('cja')" onMouseOut="hideLayer('cja');showLayer('fluffy')">CJA</a>, flyers were distributed advising people to 'lie down like doormats' in the event of police violence, the powers that be wiped their feet and stamped on them.</p><p>Different forms of NVDA are appropriate in different situations, as non-violence has very blurred boundaries. The challenge is to choose the right form for the right situation.</p></font></div>
+</body>
+</html>

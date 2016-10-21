@@ -1,0 +1,63 @@
+<html>
+<head>
+	<script language="javascript">
+
+ 	function showLayer(id){
+ 		if (document.layers) document.layers[''+id+''].visibility = "visible"
+ 		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+ 		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+ 	}
+
+ 	function hideLayer(id){
+ 	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+ 	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+ 	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+ 	}
+
+	</script>
+	<style type="text/css">
+	#intro {position: absolute; visibility: visible; width:450; height:40; z-index:200; left:0; top:5}
+	#intro2 {position: absolute; visibility: hidden; width:450; height:40; z-index:200; left:0; top:5}
+	#intro3 {position: absolute; visibility: hidden; width:450; height:40; z-index:200; left:0; top:5}
+	#text1 {position: absolute; visibility: visible; width:215; height:400; z-index:400; top:58; left:15; }
+	#text2 {position: absolute; visibility: visible; width:215; height:400; z-index:600; top:58; left:240; }
+	#text3 {position: absolute; visibility: hidden; width:215; height:400; z-index:800; top:58; left:15; }
+	#text4 {position: absolute; visibility: hidden; width:215; height:400; z-index:1000; top:58; left:240; }
+	#text5 {position: absolute; visibility: hidden; width:215; height:400; z-index:1200; top:58; left:15; }
+	#text6 {position: absolute; visibility: hidden; width:215; height:400; z-index:1400; top:58; left:240; }
+	#fore {position: absolute; visibility: visible; width:100; height:40; z-index:1600; top:445; left:330; }
+	#fore2 {position: absolute; visibility: hidden; width:100; height:40; z-index:1800; top:445; left:330; }
+	#aft2 {position: absolute; visibility: hidden; width:100; height:40; z-index:2000; top:445; left:20; }
+	#aft3 {position: absolute; visibility: hidden; width:100; height:40; z-index:2400; top:445; left:20; }
+
+</style>
+<body bgcolor="white" link="darkred" vlink="darkred" alink="darkred">
+<div id="intro"><font face="impact, chicago" size="6" color="darkblue"><center><u>introduction</u>  <font size="4">(1)</font></center></font></div>
+
+<div id="intro2"><font face="impact, chicago" size="6" color="darkblue"><center><u>introduction</u>  <font size="4">(2)</font></center></font></div>
+
+<div id="intro3"><font face="impact, chicago" size="6" color="darkblue"><center><u>introduction</u>  <font size="4">(3)</font></center></font></div>
+
+<div id="text1"><font face="arial, helvatica, sans-serif" size="2"><p>To appreciate your community fully and make the most out of it, you need to look after it. This not only involves maintaining its appearance, both inside and out, but also making sure that all the systems are working properly.</p><p>We now have the most centralised system of government since before the Second World War, accompanied by a weakening of local authorities, trade unions, legal aid and other sources of power and change that have traditionally been accessable to ordinary people.</p><p>It is an often painful fact of life that problems occur at the most inconvenient times - and this is as true in society as anywhere. So a basic knowledge of DiY Culture will come in very handy when you face an emergancy.</p></font></div>
+
+
+<div id="text2"><font face="arial, helvatica, sans-serif" size="2"><p>Activists say DiY Culture means making small changes individually and locally, rather than hanging about waiting for a global panacea for all social and environmental ills. It is about standing up for things they believe in and about taking responsibility for themselves, the environment and the community.</p><p>The Readers Digress Complete DiY Culture Manual gives you the information you need to plan and prepare for your own empowerment, and its step-by-step guide to techniques will help ensure you get it right. In achieving the best results each time, you will have the satisfaction of knowing that everything you do is a task well done.</p></font></div>
+
+<div id="text3"><font face="arial, helvatica, sans-serif" size="2"><p>DiY Culture is often thought of as disparate groups clinging together under a common banner for moral support, but this ignores many of their central themes. They all stem from different areas of green activism, and all have similar anarchist flavours and anti-capitalist objectives.</p><p>The bond between different areas of DiY Culture was certainly reinforced by the introduction of the Criminal Justice Act. Groups which were initially small in their following, such as the Hunt Saboteurs Association, gained great publicity and support from their essential criminalisation. The free party scene, which was always a recreational element of DiY Culture, became politicised and a cause in itself due to the CJA.</p></font></div>
+
+<div id="text4"><font face="arial, helvatica, sans-serif" size="2"><p>Because the CJA affected such a wide audience in it's draconianism, groups were compelled to unite against it. The single piece of legislation designed to crush these social menaces only succeeded in making them stronger.</p><p>DiY Culture has swelled to become a significant social force. The 1917 Russian Revolution was carried out by 1000 people, the June 18th - Carnival Against Capitalism involved at least 4000 people.<p>We can't take power by force any more, there's too many riot police; but we can take power by convincing enough people that the existing social order is shit.</p></font></div>
+
+<div id="text5"><font face="arial, helvatica, sans-serif" size="2"><p>According to Robert Reiner, before the general population of Britain gained the right to vote, rioting was seen as their pivotal role in democracy, their only chance to voice their grievances. Or perhaps, the only time the ruling classes would discover they had grievances.</p><p>Now, when many see democracy as a farce, and feel they have no control over the legislation which rules their lives, people are heading back to the streets to voice their disgust, or just refusing to play by the rules and living outside of the institutional framework as best they can.</p><p>Many people have discovered the sense of impowerment obtained from governing your own life, by living autonomously as best you can.</p></font></div>
+
+<div id="text6"><font face="arial, helvatica, sans-serif" size="2"><p>You too can discover how to live your life beautifully and creatively, how to put the community back into your neighbourhood, and the power of choice back into your life.</p><p>In the words of Reclaim the Streets:</p><p><font face="courier,mono" size="2">Direct action is about taking control of every aspect of our lives, the homes we build, the food we eat, the way we travel, the culture we enjoy, the games we play - it's not just about the occasional protest but about taking power from the politicians, businessmen and bureacrats, and participating immediately and directly in radical social and ecological change.</font></p><font size="3"><p>Resistance is Fertile.</p></font></font></div>
+
+<div id="fore"><a href="#" onMouseDown="hideLayer('intro');hideLayer('text1');hideLayer('text2');hideLayer('fore');showLayer('intro2');showLayer('text3');showLayer('text4');showLayer('aft2');showLayer('fore2')"><font face="vidodisp" size="3">Page 2</font><font face="tahoma" size="3"> >>></font></a></div>
+
+<div id="fore2"><a href="#" onMouseDown="hideLayer('intro2');hideLayer('text3');hideLayer('text4');hideLayer('fore2');hideLayer('aft2');showLayer('intro3');showLayer('text5');showLayer('text6');showLayer('aft3')"><font face="vidodisp" size="3">Page 3</font><font face="tahoma" size="3"> >>></font></a></div>
+
+<div id="aft2"><a href="#" onMouseDown="hideLayer('intro2');hideLayer('text3');hideLayer('text4');hideLayer('fore2');hideLayer('aft2');showLayer('intro');showLayer('text1');showLayer('text2');showLayer('fore')"><font face="tahoma" size="3"><<< </font><font face="vidodisp" size="3">Page 1</font></a></div>
+
+<div id="aft3"><a href="#" OnMouseDown="hideLayer('intro3');hideLayer('text5');hideLayer('text6');hideLayer('aft3');showLayer('intro2');showLayer('text3');showLayer('text4');showLayer('aft2');showLayer('fore2')"><font face="tahoma" size="3"><<< </font><font face="vidodisp" size="3">Page 2</font></a></div>
+
+</body>
+</html>

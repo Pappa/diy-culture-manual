@@ -1,0 +1,61 @@
+<html><head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+</SCRIPT>
+<STYLE TYPE="text/css">
+
+#title {position: absolute; visibility: visible; width: 720; height: 200; top: 10; z-index: 200;}
+#squat {position: absolute; visibility: visible; width: 720; height: 10; top: 65; z-index: 100;}
+
+#text1 {position: absolute; visibility: hidden; width: 265; height: 200; top: 80; left: 46; z-index: 300;}
+#text2 {position: absolute; visibility: hidden; width: 265; height: 200; top: 80; left: 46; z-index: 300;}
+#text3 {position: absolute; visibility: hidden; width: 250; height: 200; top: 81; left: 47; z-index: 300;}
+#text4 {position: absolute; visibility: hidden; width: 250; height: 200; top: 80; left: 46; z-index: 300;}
+#text5 {position: absolute; visibility: hidden; width: 265; height: 200; top: 79; left: 46; z-index: 300;}
+
+#number1{position: absolute; width:30; height:20; top:165; left:370; z-index:1800;}
+#number2{position: absolute; width:30; height:20; top:240; left:590; z-index:2000;}
+#number3{position: absolute; width:30; height:20; top:345; left:412; z-index:2200;}
+#number4{position: absolute; width:30; height:20; top:295; left:273; z-index:2400;}
+#number5{position: absolute; width:30; height:20; top:375; left:200; z-index:2600;}
+#roll{position: absolute; width:720; height:20; top:459; left:0; z-index:2600;}
+</style>
+</head>
+<body bgcolor=white vlink="white" alink="red" link="white">
+
+<div id="title"><center><font face="vidodisp, machine, impact" size="+3" color="darkblue"><u>demandin</u>g<u> the im</u>p<u>ossible:</u></font><br><font face="vidodisp, machine, impact" size="+2" color="darkblue"><u>the anarchist tea</u>p<u>ot</u></font></center></div>
+
+<div id="squat"><center><img src="images/demanding.jpg" border="0" width="660" height="400"></center></div>
+
+<div id="number1"><a href="#" onMouseOver="showLayer('text1');hideLayer('text2');hideLayer('text3');hideLayer('text4');hideLayer('text5')"><font face="impact, chicago">1</font></a></div>
+
+<div id="number2"><a href="#" onMouseOver="showLayer('text2');hideLayer('text1');hideLayer('text3');hideLayer('text4');hideLayer('text5')"><font face="impact, chicago">2</font></a></div>
+
+<div id="number3"><a href="#" onMouseOver="showLayer('text3');hideLayer('text2');hideLayer('text1');hideLayer('text4');hideLayer('text5')"><font face="impact, chicago">3</font></a></div>
+
+<div id="number4"><a href="#" onMouseOver="showLayer('text4');hideLayer('text2');hideLayer('text3');hideLayer('text1');hideLayer('text5')"><font face="impact, chicago">4</font></a></div>
+
+<div id="number5"><a href="#" onMouseOver="showLayer('text5');hideLayer('text2');hideLayer('text3');hideLayer('text4');hideLayer('text1')"><font face="impact, chicago">5</font></a></div>
+
+
+<br><br><br><br>
+<div id="text1"><font size="1" face="arial, helvatica">The Anarchist Teapot comprises several autonomous communities in the UK. The Teapot grew from the idea that the act of making tea freely for people (with no hidden agenda) will do something to break down social relations imposed by the capitalist system (by removing money the relation between provider and <br>consumer is affected).</font></div>
+<div id="text2"><font size="1" face="arial, helvatica">The Anarchist Teapot is aware of the social ignorance surrounding it's name. Part of the reason the Teapot exists is to provide information about anarchism as a social and political movement, to show that anarchy means a way of living autonomously with no central governmental control, and is not a synonym <br>for chaos or lawlessness.</font></div>
+<div id="text3"><font size="1" face="arial, helvatica">The Teapot is a communal living room for anyone not under the influence of drink or drugs to drop in, enjoy a free cup of tea and escape from the 'buy, buy, buy' message that screams out of the town centres in which they are usually based.</font></div>
+<div id="text4"><font size="1" face="arial, helvatica">The rooms of the Teapot are used as a community caf&eacute;, for video showings and discussions in the evening, a 'long as you like' library from donated books and magazines, and a home for those who live there. The Teapot is a local community rescource, and a hub of cultural activity for the area.</font></div>
+<div id="text5"><font size="1" face="arial, helvatica">The Teapot is dedicated to the betterment of the local community. Not only physically, by the improvement of empty buildings, but socially too, aiming to improve the poor social relations of our time where people no longer care about their street or town. Anarchism treats local <br>on equal terms to global, and this is the <br>Teapot's primary ideology.</font></div>
+<div id="roll"><font face="vidodisp,arial,helvatica" size="2" color="darkblue"><center>Roll the mouse pointer over the numbers for more information.</center></font></div>
+</body>
+</html>

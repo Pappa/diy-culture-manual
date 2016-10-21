@@ -1,0 +1,70 @@
+<html><head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+
+</SCRIPT>
+<STYLE TYPE="text/css">
+
+#title {position: absolute; visibility: visible; width: 720; height: 200; top: 10; z-index: 200;}
+#squat {position: absolute; visibility: visible; width: 720; height: 10; top: 65; z-index: 100;}
+#flash {position: absolute; visibility: hidden; width: 100; height: 100; top: 66; left:585; z-index: 10000;}
+
+#text1 {position: absolute; visibility: hidden; width: 245; height: 200; top: 80; left: 50; z-index: 300;}
+#text2 {position: absolute; visibility: hidden; width: 245; height: 200; top: 80; left: 50; z-index: 300;}
+#text3 {position: absolute; visibility: hidden; width: 245; height: 200; top: 80; left: 50; z-index: 300;}
+#text4 {position: absolute; visibility: hidden; width: 245; height: 200; top: 80; left: 50; z-index: 300;}
+#text5 {position: absolute; visibility: hidden; width: 265; height: 200; top: 79; left: 50; z-index: 300;}
+#text6 {position: absolute; visibility: hidden; width: 245; height: 200; top: 80; left: 50; z-index: 300;}
+
+#number1{position: absolute; width:30; height:20; top:155; left:325; z-index:1800;}
+#number2{position: absolute; width:30; height:20; top:220; left:175; z-index:2000;}
+#number3{position: absolute; width:30; height:20; top:365; left:150; z-index:2200;}
+#number4{position: absolute; width:30; height:20; top:297; left:275; z-index:2400;}
+#number5{position: absolute; width:30; height:20; top:330; left:412; z-index:2600;}
+#number6{position: absolute; width:30; height:20; top:165; left:565; z-index:2600;}
+#roll{position: absolute; width:720; height:20; top:459; left:0; z-index:2600;}
+
+</style>
+</head>
+<body bgcolor=white vlink="white" alink="red" link="white">
+
+<div id="title"><center><font face="vidodisp, machine, impact" size="+3" color="darkblue">y<u>our new s</u>q<u>uat:</u></font><br><font face="vidodisp, machine, impact" size="+2" color="darkblue"><u>the weak </u>p<u>oints</u></font></center></div>
+
+<div id="squat"><center><img src="images/squat.jpg" border="0" width="660" height="400"></center></div>
+
+<div id="number1"><a href="#" onMouseOver="showLayer('text1');hideLayer('text2');hideLayer('text3');hideLayer('text4');hideLayer('text5');hideLayer('text6')"><font face="impact, chicago">1</font></a></div>
+
+<div id="number2"><a href="#" onMouseOver="showLayer('text2');hideLayer('text1');hideLayer('text3');hideLayer('text4');hideLayer('text5');hideLayer('text6')"><font face="impact, chicago">2</font></a></div>
+
+<div id="number3"><a href="#" onMouseOver="showLayer('text3');hideLayer('text2');hideLayer('text1');hideLayer('text4');hideLayer('text5');hideLayer('text6')"><font face="impact, chicago">3</font></a></div>
+
+<div id="number4"><a href="#" onMouseOver="showLayer('text4');hideLayer('text2');hideLayer('text3');hideLayer('text1');hideLayer('text5');hideLayer('text6')"><font face="impact, chicago">4</font></a></div>
+
+<div id="number5"><a href="#" onMouseOver="showLayer('text5');hideLayer('text2');hideLayer('text3');hideLayer('text4');hideLayer('text1');hideLayer('text6')"><font face="impact, chicago">5</font></a></div>
+
+<div id="number6"><a href="#" onMouseOver="showLayer('flash');showLayer('text6');hideLayer('text2');hideLayer('text3');hideLayer('text4');hideLayer('text1');hideLayer('text5')" onMouseOut="hideLayer('flash')"><font face="impact, chicago">6</font></a></div>
+
+<div id="flash"><img src="images/flash.gif" width="60" height="95"></div>
+
+<br><br><br><br>
+<div id="text1"><font size="1" face="arial, helvatica">Many squats may have serious or minor structural defects, such as damaged roofs, walls and floors. Fire damage is also a common reason for a house being left empty. It is important to first check before moving in that any such defects are not dangerous.</font></div>
+<div id="text2"><font size="1" face="arial, helvatica">You may find that if your squat has all it's windows boarded up you don't get any natural light. This can be pretty demoralising, especially if you don't yet have any electricity. Take off the boards carefully. Avoid damaging the house, as this will get you swiftly evicted.</font></div>
+<div id="text3"><font size="1" face="arial, helvatica">Rubbish can be a problem, and not just the hastle of tidying the garden. Most empty buildings are filled with the detrius of their previous occupiers. Items may have been destroyed and strewn around the house by inquisitive teenagers, and it's not that unusual to find human faeces waiting to <br>surprise you.</font></div>
+<div id="text4"><font size="1" face="arial, helvatica">Sometimes, you might not have any windows or doors at all. Apart from the obvious problems of drafts and rain, this situation provides you with no security. Replacing windows and doors may help you stay in the property longer as you can prove <br>that you've looked after the place.</font></div>
+<div id="text5"><font size="1" face="arial, helvatica">Doors are fantastic. Doors protect us from the elements and keep out unwelcome visitors. Symbolically, doors turn houses into homes, defining inside and out. If you havn't got a door, skip hunting and some simple carpentry skills are a good idea. If you've got a door that's boarded up it shouldn't be too difficult <br>to make it open, close and <br>maybe even lock.</font></div>
+<div id="text6"><font size="1" face="arial, helvatica">Call it acts of god, bad karma or probability; you just can't account for reality playing tricks on you and sending really wierd things like lightning strikes, flash floods or buffalo stampedes. You'll probably have to get used to things like this, they seem to happen more often to squats.</font></div>
+<div id="roll"><font face="vidodisp,arial,helvatica" size="2" color="darkblue"><center>Roll the mouse pointer over the numbers for more information.</center></font></div>
+</body>
+</html>

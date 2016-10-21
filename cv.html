@@ -1,0 +1,207 @@
+<html>
+
+<head>
+
+	<script language="javascript">
+
+<!-- hide from old browsers --
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+
+	function launch(){
+		newWindow=window.open("DiY-main.html","manual","toolbars=no,scrollbars=no,width=720,height=530,top=10,left=25")
+	}
+
+
+//-->
+</script>
+
+
+
+<style type="text/css">
+
+
+
+#title {position: absolute; visibility: visible; top:6; left:10; z-index:100; width: 15px; height: 40px; }
+
+#subtitle {position: absolute; visibility: visible; top:40; left:25; z-index:200; width: 300; }
+
+#name {position: absolute; visibility: visible; top:80; left:500; z-index:300; width: 100; }
+
+#blob {position: absolute; visibility: visible; top:64; left:460; z-index:400; width: 40; }
+
+#list {position: absolute; visibility: visible; top:130; left:10; z-index:500; width: 120; }
+
+#per {position: absolute; visibility: visible; width:120; height:40; top:130; left:10; z-index:600; }
+
+#edu {position: absolute; visibility: hidden; width:120; height:40; top:170; left:10; z-index:700; }
+
+#emp {position: absolute; visibility: hidden; width:120; height:40; top:210; left:10; z-index:800; }
+
+#ski {position: absolute; visibility: hidden; width:120; height:40; top:250; left:10; z-index:900; }
+
+#sta {position: absolute; visibility: hidden; width:120; height:40; top:290; left:10; z-index:1000; }
+
+#port {position: absolute; visibility: hidden; width:120; height:40; top:330; left:10; z-index:1100; }
+
+#ref {position: absolute; visibility: hidden; width:120; height:40; top:370; left:10; z-index:1200; }
+
+#personal {position: absolute; visibility: visible; width:390; height:290; top:137; left:200; z-index:1300; }
+
+#education {position: absolute; visibility: hidden; text-align:right; width:435; height:290; top:160; left:150; z-index:1400; }
+
+#employment {position: absolute; visibility: hidden; text-align:right; width:440; height:290; top:142; left:145; z-index:1500; }
+
+#skills {position: absolute; visibility: hidden; text-align:right; width:440; height:290; top:150; left:145; z-index:1600; }
+
+#statement {position: absolute; visibility: hidden; width:435; text-align:right; height:290; top:145; left:150; z-index:1700; }
+
+#portfolio {position: absolute; visibility: hidden; width:415; height:290; top:190; left:200; z-index:1800; }
+
+#references {position: absolute; visibility: hidden; width:500; height:290; top:170; left:160; z-index:1900; }
+
+</style>
+
+
+
+</head>
+
+
+
+<body background="images/cv/stripes.gif" bgcolor="white" link="darkred" vlink="darkred" alink="darkred">
+
+
+
+<div id="title"><img src="images/cv/title.jpg" border="0"></div>
+
+
+
+<div id="subtitle"><font face="arial, helvatica" size="3" color="gray">curriculum vitae &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; robert hill</font></div>
+
+
+
+<div id="name"><font face="arial, helvatica" size="4" color="white">Robert Hill</font></div>
+
+
+
+<div id="blob"><img src="images/cv/blob.gif" width="40" height="40"></div>
+
+
+
+<div id="list" align="right"> <a href="#" onClick="showLayer('per');showLayer('personal');hideLayer('edu');hideLayer('education');hideLayer('emp');hideLayer('employment');hideLayer('ski');hideLayer('skills');hideLayer('sta');hideLayer('statement');hideLayer('port');hideLayer('portfolio');hideLayer('ref');hideLayer('references')"><img src="images/cv/per.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('edu');showLayer('education');hideLayer('per');hideLayer('personal');hideLayer('emp');hideLayer('employment');hideLayer('ski');hideLayer('skills');hideLayer('sta');hideLayer('statement');hideLayer('port');hideLayer('portfolio');hideLayer('ref');hideLayer('references')"><img src="images/cv/edu.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('emp');showLayer('employment');hideLayer('edu');hideLayer('education');hideLayer('per');hideLayer('personal');hideLayer('ski');hideLayer('skills');hideLayer('sta');hideLayer('statement');hideLayer('port');hideLayer('portfolio');hideLayer('ref');hideLayer('references')"><img src="images/cv/emp.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('ski');showLayer('skills');hideLayer('edu');hideLayer('education');hideLayer('emp');hideLayer('employment');hideLayer('per');hideLayer('personal');hideLayer('sta');hideLayer('statement');hideLayer('port');hideLayer('portfolio');hideLayer('ref');hideLayer('references')"><img src="images/cv/ski.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('sta');showLayer('statement');hideLayer('edu');hideLayer('education');hideLayer('emp');hideLayer('employment');hideLayer('ski');hideLayer('skills');hideLayer('per');hideLayer('personal');hideLayer('port');hideLayer('portfolio');hideLayer('ref');hideLayer('references')"><img src="images/cv/sta.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('port');showLayer('portfolio');hideLayer('edu');hideLayer('education');hideLayer('emp');hideLayer('employment');hideLayer('ski');hideLayer('skills');hideLayer('sta');hideLayer('statement');hideLayer('per');hideLayer('personal');hideLayer('ref');hideLayer('references')"><img src="images/cv/por.gif" border="0"></a><br>
+
+	<a href="#" onClick="showLayer('ref');showLayer('references');hideLayer('edu');hideLayer('education');hideLayer('emp');hideLayer('employment');hideLayer('ski');hideLayer('skills');hideLayer('sta');hideLayer('statement');hideLayer('port');hideLayer('portfolio');hideLayer('per');hideLayer('personal')"><img src="images/cv/ref.gif" border="0"></a><br>
+
+</div>
+
+<div id="per" align="right"><img src="images/cv/per-x.gif" border="0"></div>
+
+
+
+<div id="edu" align="right"><img src="images/cv/edu-x.gif" border="0"></div>
+
+
+
+<div id="emp" align="right"><img src="images/cv/emp-x.gif" border="0"></div>
+
+
+
+<div id="ski" align="right"><img src="images/cv/ski-x.gif" border="0"></div>
+
+
+
+<div id="sta" align="right"><img src="images/cv/sta-x.gif" border="0"></div>
+
+
+
+<div id="port" align="right"><img src="images/cv/por-x.gif" border="0"></div>
+
+
+
+<div id="ref" align="right"><img src="images/cv/ref-x.gif" border="0"></div>
+
+
+
+<div id="personal">
+	<table border="0" width=390 height=290 cellpadding="0" cellspacing="5">
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Name</font></td><td align="right"><font face="arial, helvatica" size="2">Robert David Hill</font></td></tr>
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Date of Birth</font></td><td align="right"><font face="arial, helvatica" size="2">28-12-76</font></td></tr>
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Marital Status</font></td><td align="right"><font face="arial, helvatica" size="2">Engaged</font></td></tr>
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Driving Licence</font></td><td align="right"><font face="arial, helvatica" size="2">Full, Clean</font></td></tr>
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Address</font></td><td align="right"><font face="arial, helvatica" size="2">17a, York Place<br>Barry<br>Vale of Glamorgan<br>CF62 7ED</font></td></tr>
+
+	<tr valign="top"><td align="left"><font face="arial, helvatica" size="2">Telephone</font></td><td align="right"><font face="arial, helvatica" size="2">01446 745404</font></td></tr></table></div>
+
+
+
+<div id="education"><font face="arial, helvatica" size=2><p><strong>BA (Hons) Contemporary Photographic Practice</strong> (2:2)<br>University of Northumbria at Newcastle<br>September 1997 - June 2000</p><p><strong>BTEC National Diploma in Lens Imaging</strong><br>(Photography, Digital Imaging)<br>Pass with Distinction<br>Mid Glamorgan Centre for Art and Design Technology<br>September 1995 - June 1997</p><p><strong>10 GCSE's (9 a-c inc. Maths and English)</strong><br>Barry Comprehensive School<br>1998 - 1994</p></font></div>
+
+
+
+<div id="employment"><font face="arial, helvatica" size=2><p><strong>Key Personelle (NE) Ltd.</strong> June 1999 - September 1999<br>Working at various music festivals throughout the summer picking litter. Developed communication and teamwork skills while working as part of a group of up to 100 others. Also learned to work on my own initative in often challenging circumstances.</p><p><strong>Redding End Fruit Farm, Much Marcle</strong> August 1998 - September 1998<br>Working as part of a team picking apples, pay by weight.</p><p><strong>Ffotogallery, Cardiff</strong> March 1998 - April 1998<br>Working with others to install Martin Parr exhibition, after first removing the annual members exhibition. Most of the aesthetic considerations were left to myself and other volunteers.</p><p><strong>Peacocks Warehouse, Nantgarw</strong> Summer 1997 and Summer 1998<br>Responsible for stock entering and leaving, working to a deadline.</p></font></div>
+
+
+
+<div id="skills"><font face="arial, helvatica" size=2><p>I have been studing photography for seven years. I am confident in the use of all formats of camera, studio equipment and any other photographic paraphernalia.</p><p>I have extensive experience of Adobe Photoshop, having taught myself to use it five years ago and have been using it in my photographic work ever since.</p><p>I have a good working knowledge of Quark Express, having used the program to create magazine articles, posters and flyers.</p><p>I became interested in web design some time ago. With no available guidance, I began pulling apart the code of interesting web sites to understand how HTML and Javascript function. As with Photoshop and Quark, my understanding of web design remains self taught.</p></font></div>
+
+
+
+<div id="statement"><font face="arial, helvatica" size="2">For the last three years my work has been concerned with photographing the underground dance scene of the North-East. For some time I have also been photographing various aspects of DiY Culture, GM crop demonstrations, anti-capitalist demonstrations, squatters and travellers, etc. in order to compile a web based 'DiY Culture Manual', a guide for the uninitiated and a self-affirmation for those involved. This is an ongoing project.<br><br>My partner and I are expecting a baby at the end of October, and have set up home in Barry. I am looking for work in the South Wales area.<br><br>Aside from those interests already mentioned, I have a fascination for cacti, collecting new plants whenever possible. I also enjoy hitching, finding it one of the most enjoyable ways of getting from A to B at a leisurely pace.</font></div>
+
+
+
+<div id="portfolio"><font face="arial, helvatica" size="2">My full photographic portfolio is currently unavailable,<br>but examples of my web design can be seen at:<br><br><a href="JavaScript:launch()" onMouseOver="window.status='Enter the Readers Digress Complete DiY Culture Manual'; return true;">The Readers' Digress Complete DiY-Culture Manual</a></font></div>
+
+
+
+<div id="references"><table border="0" cellpadding="0" cellspacing="0" width="425">
+
+	<tr>
+
+		<td align="left"><font face="arial, helvatica" size="2">Mr. Tim Collier<br>Glamorgan Centre for Art and Design<br>Treforest<br>Pontypridd<br>Rhondda Cynon Taff</font></td>
+
+		<td align="right"><font face="arial, helvatica" size="2">Mr. Guy Pitt<br>3, Belle Vue Terrace<br>Cadoxton<br>Barry<br>Vale of Glamorgan</font></td>
+
+	</tr>
+
+	<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+	<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+	<tr>
+
+		<td colspan="2" align="center"><font face="arial, helvatica" size="2">Mr. James Harrold<br>Department of Visual and Performing Arts<br>Squires Annex<br>University of Northumbria at Newcastle<br>Newcastle upon Tyne</font></td></tr></table>
+
+</div>
+
+
+
+</body>
+
+</html>

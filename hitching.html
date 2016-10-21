@@ -1,0 +1,108 @@
+<html>
+<head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+</SCRIPT>
+	<style type="text/css">
+		#title {position: absolute; visibility: visible; width:720; left:0; top:8; z-index:50;}
+		#text1 {position: absolute; visibility: visible; left:50; top:75; width:190; z-index:100;}
+		#text2 {position: absolute; visibility: visible; left:490; top:75; width:190; z-index:200;}
+
+		#question {position: absolute; visibility: hidden; left:0; top:10; width:720; z-index:20;}
+		#thumb {position: absolute; visibility: visible; left:0; top:41; width:720; z-index:30;}
+		#bored {position: absolute; visibility: hidden; left:0; top:10; width:720; z-index:40;}
+		#jump {position: absolute; visibility: hidden; left:0; top:48; width:720; z-index:30;}
+		#bristol {position: absolute; visibility: hidden; left:0; top:49; width:720; z-index:30;}
+
+	#adolfo {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+	#allie-blue {position: absolute; visibility: hidden; top: 270; left: 365; width: 152; height: 200;}
+	#alien {position: absolute; visibility: hidden; top: 270; left: 527; width: 152; height: 200;}
+
+	#j-1-thum {position: absolute; visibility: hidden; top: 270; left: 527; width: 152; height: 200;}
+	#upside-down {position: absolute; visibility: hidden; top: 269; left: 365; width: 152; height: 200;}
+	#under-leg {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+
+	#mushroom {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+	#juggle {position: absolute; visibility: hidden; top: 270; left: 527; width: 152; height: 200;}
+	#plane {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+
+	#please {position: absolute; visibility: hidden; top: 270; left: 203; width: 152; height: 200;}
+	#welsh {position: absolute; visibility: hidden; top: 270; left: 365; width: 152; height: 200;}
+	#wash {position: absolute; visibility: hidden; top: 270; left: 40; width: 152; height: 200;}
+
+		#hr {position: absolute; visibility: visible; left:0; top:250; width:720; z-index:300;}
+
+	#appearance {position: absolute; visibility: visible; left:40; top:270; width:152; z-index:400;}
+	#technique {position: absolute; visibility: visible; left:203; top:270; width:152; z-index:600;}
+	#boredom {position: absolute; visibility: visible; left:365; top:270; width:152; z-index:700;}
+	#signs {position: absolute; visibility: visible; left:527; top:270; width:152; z-index:800;}
+
+	#appearance-text {position: absolute; visibility: visible; left:40; top:297; width:152; z-index:400;}
+	#technique-text {position: absolute; visibility: visible; left:203; top:297; width:152; z-index:600;}
+	#boredom-text {position: absolute; visibility: visible; left:365; top:297; width:152; z-index:700;}
+	#signs-text {position: absolute; visibility: visible; left:527; top:297; width:152; z-index:800;}
+	</style>
+</head>
+<body bgcolor="white" link="darkred" alink="darkred" vlink="darkred">
+<div id="title"><center><font face="vidodisp, impact, chicago" color="darkblue" size="+3"><u>hitchin</u>g</font></center></div>
+
+<div id="text1"><font face="Arial, Helvatica" size="1"><p>Hitching is a sport. It's like a motorized version of snakes and ladders, except that instead of throwing dice, you throw a thumb and more often than not don't move.</p><p>You here stories of people who can dress like Mad Max, and take their choice of the cars that not only give them lifts, but which detour thirty, forty or fifty miles out of their way to land the magic people at their destination.</p></font></div>
+<div id="text2"><font face="Arial, Helvatica" size="1"><p align=right>But if you are not a magic man, you are left with the problem of stopping cars. The only thing on your side when you stand by the side of the road is that some drivers pick up hitchers. Sooner or later one of them will stop. But don't count on it.</p><p align=right>What you must do is figure out how to raise the odds in your favour. Fortunately, there are some basic techniques which may help you do this.</p></font></div>
+
+<div id="bristol"><center><img src="images/bristol.jpg" width="240" height="210"></center></div>
+<div id="adolfo"><img src="images/adolfo.jpg" width="152" height="200"></div>
+<div id="allie-blue"><img src="images/allie-blue.jpg" width="152" height="200"></div>
+<div id="alien"><img src="images/alien.jpg" width="152" height="200"></div>
+
+<div id="question"><center><img src="images/question2.jpg" width="240" height="250"></center></div>
+<div id="welsh"><img src="images/welsh.jpg" width="152" height="200"></div>
+<div id="please"><img src="images/please.jpg" width="152" height="200"></div>
+<div id="wash"><img src="images/wash.jpg" width="152" height="200"></div>
+
+<div id="thumb"><center><img src="images/thumb.jpg" width="240" height="215"></center></div>
+
+<div id="bored"><center><img src="images/bored-away.jpg" width="240" height="250"></center></div>
+<div id="mushroom"><img src="images/mushroom.jpg" width="152" height="200"></div>
+<div id="juggle"><img src="images/juggle.jpg" width="152" height="200"></div>
+<div id="plane"><img src="images/plane.jpg" width="152" height="200"></div>
+
+<div id="jump"><center><img src="images/jump.jpg" width="240" height="210"></center></div>
+<div id="j-1-thum"><img src="images/j-1-thum.jpg" width="152" height="200"></div>
+<div id="upside-down"><img src="images/upside-down.jpg" width="152" height="200"></div>
+<div id="under-leg"><img src="images/under-leg.jpg" width="152" height="200"></div>
+
+<div id="hr"><center><hr width="50%"></center></div>
+
+<div id="appearance"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="hideLayer('technique'); hideLayer('technique-text'); hideLayer('boredom'); hideLayer('boredom-text'); hideLayer('signs'); hideLayer('signs-text'); hideLayer('thumb'); showLayer('adolfo'); showLayer('bristol'); showLayer('allie-blue'); showLayer('alien')" onMouseOut="showLayer('technique'); showLayer('technique-text'); showLayer('boredom'); showLayer('boredom-text'); showLayer('signs'); showLayer('signs-text'); showLayer('thumb'); hideLayer('adolfo'); hideLayer('bristol'); hideLayer('allie-blue'); hideLayer('alien')">Appearance</a></font></center></div>
+
+<div id="technique"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="hideLayer('appearance'); hideLayer('appearance-text'); hideLayer('boredom'); hideLayer('boredom-text'); hideLayer('signs'); hideLayer('signs-text'); hideLayer('thumb'); showLayer('jump'); showLayer('j-1-thum'); showLayer('under-leg'); showLayer('upside-down')" onMouseOut="showLayer('appearance'); showLayer('appearance-text'); showLayer('boredom'); showLayer('boredom-text'); showLayer('signs'); showLayer('signs-text'); showLayer('thumb'); hideLayer('jump'); hideLayer('j-1-thum'); hideLayer('under-leg'); hideLayer('upside-down')">Technique</a></font></center></div>
+
+<div id="boredom"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="hideLayer('technique'); hideLayer('technique-text'); hideLayer('appearance'); hideLayer('appearance-text'); hideLayer('signs'); hideLayer('signs-text'); hideLayer('thumb'); showLayer('bored'); showLayer('mushroom'); showLayer('juggle'); showLayer('plane')" onMouseOut="showLayer('technique'); showLayer('technique-text'); showLayer('appearance'); showLayer('appearance-text'); showLayer('signs'); showLayer('signs-text'); showLayer('thumb'); hideLayer('bored'); hideLayer('mushroom'); hideLayer('juggle'); hideLayer('plane')">Boredom</a></font></center></div>
+
+<div id="signs"><center><font face="Impact, Chicago" size="3"><a href="#" onMouseOver="hideLayer('technique'); hideLayer('technique-text'); hideLayer('boredom'); hideLayer('boredom-text'); hideLayer('appearance'); hideLayer('appearance-text'); hideLayer('thumb'); showLayer('question'); showLayer('welsh'); showLayer('please'); showLayer('wash')" onMouseOut="showLayer('technique'); showLayer('technique-text'); showLayer('boredom'); showLayer('boredom-text'); showLayer('appearance'); showLayer('appearance-text'); hideLayer('question'); hideLayer('welsh'); hideLayer('please'); showLayer('thumb'); hideLayer('wash')">Signs</a></font></center></div>
+
+<div id="appearance-text"><font face="Arial, Helvatica" size="1">Some hitchers say that it doesn't matter what you look like, some drivers will pick up anybody. But many floating voters probably wouldn't pick up a smelly crusty, so little bit of effort can go a long way. Try to stay clean and dry, drivers don't usually want to ruin their upholstery. Wear the tidiest clothes at your disposal. If your hair is in a state, wear a hat. Wash your face in service stations.</font></div>
+
+<div id="technique-text"><font face="Arial, Helvatica" size="1">Pick a safe, straight stretch of road with as much space for a car to stop as possible. If it's dark stand under a light. Your actual thumbing technique is entirely a matter of choice, if you get bored or your arm starts to ache, try a fanciful regal wave, or a courtsy. If your trying for a ride, try properly. Never take your eyes off the driver, and most importantly <font size="2">smile</font>.</font></div>
+
+<div id="boredom-text"><font face="Arial, Helvatica" size="1">Boredom can be a big problem, especially if you're on your own. Half an hour is not too bad, but standing in the cold and rain for six hours can be detrimental to your views on car drivers. A good book is always a bonus. Pens and paper are good for letters home or origami. Other roadside passtimes include I-spy, golf with sticks and stones, breath-holding, and talking to yourself.</font></div>
+
+<div id="signs-text"><font face="Arial, Helvatica" size="1">Some hitchers use destination signs only as a last resort. They do have their problems, drivers might not stop if they don't know where it is or if they think they are not going far enough to make it worth your while. But for all their faults they can be a really useful tool. You can also have fun with them. Try writing THE MILLENNIUM DOME, <b>?</b>, ANYWHERE, or something in Russian.</font></div>
+
+
+
+
+</body>
+</html>

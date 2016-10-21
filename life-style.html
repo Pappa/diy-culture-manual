@@ -1,0 +1,58 @@
+<html>
+<head>
+<script language="JavaScript">
+
+	function showLayer(id){
+		if (document.layers) document.layers[''+id+''].visibility = "visible"
+		else if (document.all) document.all[''+id+''].style.visibility = "visible"
+		else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+	}
+
+	function hideLayer(id){
+	if (document.layers) document.layers[''+id+''].visibility = "hidden"
+	else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+	else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+	}
+
+</SCRIPT>
+<style type="text/css">
+#title {position: absolute; width:720; height:50; left:0; top:25; z-index:10;}
+#links {position: absolute; width:720; height:50; left:0; top:421; z-index:10000;}
+#text {text-align:right; position: absolute; width:210; height:400; top:80; left:25; z-index:100;}
+#text2 {text-align:center; position: absolute; width:210; height:240; left:255; top:320; z-index:50;}
+#text3 {text-align:left; position: absolute; width:210; height:400; top:80; left:485; z-index:100;}
+#main {position: absolute; width:720; height:250; left:0; top:70; z-index:40;}
+#simon {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+#gid {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+#law {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+#gmo {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+#hitching {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+#bus {position: absolute; visibility: hidden; width:720; height:250; left:0; top:70; z-index:10;}
+
+</style>
+</head>
+<body bgcolor="white" link="darkred" alink="darkred" vlink="darkred">
+<div id="title"><center><font face="vidodisp, impact, chicago" size="6" color="darkblue"><u>lifest</u>y<u>le</u></font></center></div>
+
+<div id="text"><font face="arial, helvatica" size="2"><p>To integrate fully into the DiY ethic you may find it helpful to look and act the part. This will help you fit in with your new peer group and stop you slipping into old habits.</p><p>There are many lifestyle choices available that you may wish to try out. Growing some <a href="#" onMouseOver="showLayer('simon');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('simon')">dreadlocks</a> is a common choice. They will serve as a social identifier, visually linking you to activists and disasociating you from the general public.</p><p>Alternatively you could learn how to <a href="#" onMouseOver="showLayer('gid');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('gid')">skin up</a>. This will aid you in social situation where other DiYers are present. Also it is a symbolic gesture, voluntarily criminalising yourself, thus marking your contempt for the <a href="#" onMouseOver="showLayer('law');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('law')">law</a> and the establishment that it represents.</p></font></div>
+
+<div id="text2"><font face="arial, helvatica" size="2"><p>Other lifestyle choices simultaneously involve moral as well as economic factors. Vegetarianism for example, is a moral decision not to eat animals, but it also removes funding from companies who profit from using animals as food.</p></font></div>
+
+<div id="text3"><font face="arial, helvatica" size="2"><p>Lifestyle choices like this also apply to the boycott of Proctor & Gamble for their continuing animal testing, or the destruction of <a href="#" onMouseOver="showLayer('gmo');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('gmo')">genetically modified organisms</a>.</p><p>Another lifestyle choice that entails refusing to do environmental harm and refusing to support the system which legitimises this harm is deciding not to drive a car.</p><p>The active side of this choice is <a href="#" onMouseOver="showLayer('hitching');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('hitching')">hitching</a> instead. Hitching is not only a fantastic, laid back way of getting from a to b, it also acts as a token of defiance againt consumerism (allbeit a tired, wet and bored one).</p><p>Alternatively, for a real change you could get yourself a trailer, <a href="#" onMouseOver="showLayer('bus');hideLayer('main')" onMouseOut="showLayer('main');hideLayer('bus')">bus</a> or horsebox, and live on the road.</font></div>
+
+<div id="main"><center><img src="images/black-white.jpg" width="240"></center></div>
+<div id="simon"><center><img src="images/simon.jpg" width="240"></center></div>
+<div id="gid"><center><img src="images/bifter/bifter14.jpg" width="240"></center></div>
+<div id="law"><center><img src="images/law.jpg" width="240"></center></div>
+<div id="gmo"><center><img src="images/gmo.jpg" width="240"></center></div>
+<div id="hitching"><center><img src="images/question2.jpg" width="240"></center></div>
+<div id="bus"><center><img src="images/bus.jpg" width="240"></center></div>
+
+<div id="links">
+<center><table cellspacing="0" cellpadding="30" border="0"><tr>
+<td><a href="knocking-one-up.html"><font face=vidodisp style="font-size:18px">Knocking up a Joint</font></a></td>
+<td><a href="hitching.html"><font face=vidodisp style="font-size:18px">Hitching</font></a></td>
+</tr></table></center></div>
+
+</body>
+</html>
